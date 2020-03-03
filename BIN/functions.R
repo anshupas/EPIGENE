@@ -34,7 +34,7 @@ installPkg <- function(pkg) {
     
     if(is.null(x) & pkg == "EPI.genefinder") {
       print(pkg)
-      x <- tryCatch({devtools::install_github("imbeLab/EPI.genefinder")})
+      x <- tryCatch({devtools::install_github("imbbLab/EPI.genefinder")})
     }
     
     if(is.null(x) & pkg == "kfoots") {
